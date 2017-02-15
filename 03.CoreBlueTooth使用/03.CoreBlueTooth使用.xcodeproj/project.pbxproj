@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAB671421BE45D64007A057F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB671411BE45D64007A057F /* main.m */; };
+		EAB671451BE45D64007A057F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB671441BE45D64007A057F /* AppDelegate.m */; };
+		EAB671481BE45D64007A057F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB671471BE45D64007A057F /* ViewController.m */; };
+		EAB6714B1BE45D64007A057F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB671491BE45D64007A057F /* Main.storyboard */; };
+		EAB6714D1BE45D64007A057F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB6714C1BE45D64007A057F /* Assets.xcassets */; };
+		EAB671501BE45D64007A057F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB6714E1BE45D64007A057F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EAB6713D1BE45D64007A057F /* 03.CoreBlueTooth使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03.CoreBlueTooth使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB671411BE45D64007A057F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAB671431BE45D64007A057F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAB671441BE45D64007A057F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAB671461BE45D64007A057F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAB671471BE45D64007A057F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAB6714A1BE45D64007A057F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAB6714C1BE45D64007A057F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAB6714F1BE45D64007A057F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAB671511BE45D64007A057F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAB6713A1BE45D64007A057F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAB671341BE45D64007A057F = {
+			isa = PBXGroup;
+			children = (
+				EAB6713F1BE45D64007A057F /* 03.CoreBlueTooth使用 */,
+				EAB6713E1BE45D64007A057F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAB6713E1BE45D64007A057F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6713D1BE45D64007A057F /* 03.CoreBlueTooth使用.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAB6713F1BE45D64007A057F /* 03.CoreBlueTooth使用 */ = {
+			isa = PBXGroup;
+			children = (
+				EAB671431BE45D64007A057F /* AppDelegate.h */,
+				EAB671441BE45D64007A057F /* AppDelegate.m */,
+				EAB671461BE45D64007A057F /* ViewController.h */,
+				EAB671471BE45D64007A057F /* ViewController.m */,
+				EAB671491BE45D64007A057F /* Main.storyboard */,
+				EAB6714C1BE45D64007A057F /* Assets.xcassets */,
+				EAB6714E1BE45D64007A057F /* LaunchScreen.storyboard */,
+				EAB671511BE45D64007A057F /* Info.plist */,
+				EAB671401BE45D64007A057F /* Supporting Files */,
+			);
+			path = "03.CoreBlueTooth使用";
+			sourceTree = "<group>";
+		};
+		EAB671401BE45D64007A057F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAB671411BE45D64007A057F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAB6713C1BE45D64007A057F /* 03.CoreBlueTooth使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB671541BE45D64007A057F /* Build configuration list for PBXNativeTarget "03.CoreBlueTooth使用" */;
+			buildPhases = (
+				EAB671391BE45D64007A057F /* Sources */,
+				EAB6713A1BE45D64007A057F /* Frameworks */,
+				EAB6713B1BE45D64007A057F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03.CoreBlueTooth使用";
+			productName = "03.CoreBlueTooth使用";
+			productReference = EAB6713D1BE45D64007A057F /* 03.CoreBlueTooth使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAB671351BE45D64007A057F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "肖剑";
+				TargetAttributes = {
+					EAB6713C1BE45D64007A057F = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = K2K9REBKPR;
+					};
+				};
+			};
+			buildConfigurationList = EAB671381BE45D64007A057F /* Build configuration list for PBXProject "03.CoreBlueTooth使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAB671341BE45D64007A057F;
+			productRefGroup = EAB6713E1BE45D64007A057F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAB6713C1BE45D64007A057F /* 03.CoreBlueTooth使用 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAB6713B1BE45D64007A057F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB671501BE45D64007A057F /* LaunchScreen.storyboard in Resources */,
+				EAB6714D1BE45D64007A057F /* Assets.xcassets in Resources */,
+				EAB6714B1BE45D64007A057F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAB671391BE45D64007A057F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB671481BE45D64007A057F /* ViewController.m in Sources */,
+				EAB671451BE45D64007A057F /* AppDelegate.m in Sources */,
+				EAB671421BE45D64007A057F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAB671491BE45D64007A057F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB6714A1BE45D64007A057F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAB6714E1BE45D64007A057F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB6714F1BE45D64007A057F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAB671521BE45D64007A057F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAB671531BE45D64007A057F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAB671551BE45D64007A057F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K2K9REBKPR;
+				INFOPLIST_FILE = "03.CoreBlueTooth使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xmg.-3-CoreBlueTooth--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAB671561BE45D64007A057F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K2K9REBKPR;
+				INFOPLIST_FILE = "03.CoreBlueTooth使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xmg.-3-CoreBlueTooth--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAB671381BE45D64007A057F /* Build configuration list for PBXProject "03.CoreBlueTooth使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB671521BE45D64007A057F /* Debug */,
+				EAB671531BE45D64007A057F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB671541BE45D64007A057F /* Build configuration list for PBXNativeTarget "03.CoreBlueTooth使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB671551BE45D64007A057F /* Debug */,
+				EAB671561BE45D64007A057F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAB671351BE45D64007A057F /* Project object */;
+}
