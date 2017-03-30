@@ -73,6 +73,7 @@
     NSLog(@"%s %d",__func__,__LINE__);
     // 查找外设服务
     [peripheral discoverServices:nil];
+    peripheral.delegate = self;
 }
 
 /**
