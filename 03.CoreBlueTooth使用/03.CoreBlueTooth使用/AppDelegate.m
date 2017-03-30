@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  03.CoreBlueTooth使用
 //
-//  Created by 肖剑 on 15/10/31.
-//  Copyright © 2015年 肖剑. All rights reserved.
+//  Created by zfy on 15/10/31.
+//  Copyright © 2015年 zfy. All rights reserved.
 //
 
 #import "AppDelegate.h"
