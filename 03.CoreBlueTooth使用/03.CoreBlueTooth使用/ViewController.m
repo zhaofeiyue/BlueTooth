@@ -144,6 +144,8 @@
 - (void)upup{
 
  // dsfksdjkdsfkjfkdsjkfdjk
+    
+    NSLog(@"");
 }
 
 @end
