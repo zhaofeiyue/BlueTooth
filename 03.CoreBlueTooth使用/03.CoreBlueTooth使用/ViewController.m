@@ -140,7 +140,17 @@
     }
 }
 
+
 - (void)ayouwocao{
    // 。。。。。。
 }
+
+- (void)upup{
+
+ // dsfksdjkdsfkjfkdsjkfdjk
+    
+    NSLog(@"");
+}
+
+
 @end
